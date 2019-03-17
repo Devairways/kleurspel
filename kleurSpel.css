@@ -1,0 +1,64 @@
+body{
+	background-color: #232323;
+	margin: 0;
+	font-family: sans-serif;
+	text-align: center;
+}
+
+#container{
+	max-width: 600px;
+	margin: 20px auto;
+}
+#resultaat{
+	display: inline-block;
+	width: 20%;
+}
+
+#streep{
+	background-color: #ffffff;
+	height: 30px;
+}
+#kleurDisplay{
+	font-size: 200%;
+}
+
+.vierkant{
+	width: 30%;
+	background-color: purple;
+	padding-bottom: 30%;
+	margin: 1.66%;
+	float: left;
+	border-radius: 15px;
+	transition: background 0.6s;
+}
+.selected{
+	background-color: steelblue;
+	color: white;
+}
+
+h1{
+	color: #ffffff;
+	font-weight: normal;
+	text-transform: uppercase;
+	margin: 0;
+	background-color: steelblue;
+	padding: 10px 0;
+
+}
+button{
+	background-color: #ffffff;
+	color: steelblue;
+	border: none;
+	height: 100%;
+	text-transform: uppercase;
+	font-weight: 700;
+	font-family: sans-serif;
+	outline: none;
+	letter-spacing:1px;
+	transition: all 0.3s;
+}
+button:hover{
+	color: white;
+	background-color: steelblue;
+	height: 100%;
+}
